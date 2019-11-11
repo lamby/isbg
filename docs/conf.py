@@ -74,6 +74,7 @@ autodoc_default_flags = ['members']
 autodoc_docstring_signature = False
 autodoc_mock_imports = []
 autodoc_warningiserror = True
+autodoc_default_options = {'exclude-members': 'xdg_cache_home'}
 
 # Enable nitpicky mode - which ensures that all references in the docs
 # resolve.
